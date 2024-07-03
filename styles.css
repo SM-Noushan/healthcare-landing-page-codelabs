@@ -10,7 +10,7 @@
   color: #020043;
 }
 
-.container-1 {
+.container {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -30,6 +30,13 @@
 }
 
 /* header */
+/* body {
+  background-image: url("./resources/media/Group\ 21.png"),
+    url("./resources/media/Group\ 20.png");
+  background-repeat: no-repeat;
+  background-position: left -21% top, right -21% top;
+} */
+
 nav {
   padding-top: 26px;
   display: flex;
@@ -42,10 +49,27 @@ menu {
   display: flex;
   column-gap: 23px;
 }
+
 menu li a {
   text-decoration: none;
 }
 
 .btn-type-2 {
   border: 1px solid var(--text-80, #343268);
+}
+
+/* banner */
+.banner {
+  margin: 50px auto;
+  height: 470px;
+  border-radius: 48px;
+  background: linear-gradient(
+      179deg,
+      rgba(0, 193, 157, 0) -25.42%,
+      rgba(2, 0, 67, 0.47) 107.11%
+    ),
+    url("./resources/media/Rectangle 5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
