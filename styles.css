@@ -148,3 +148,71 @@ menu li a {
 .text-end {
   text-align: end;
 }
+
+/* who we are */
+.section-label {
+  border-radius: 25px;
+  border: 1px solid var(--text-80, #343268);
+  background: #fffff5;
+  padding: 10px 24px;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 116.9%;
+}
+
+.who-we-are {
+  margin: 50px auto;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+
+.section-text-heading {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+.section-text-desc {
+  margin-top: 16px;
+  color: #4d4c7b;
+  line-height: 24px;
+  max-width: 470px;
+}
+
+.btn-type-1 {
+  margin-top: 45px;
+  background: #ffc637;
+  border: none;
+}
+
+.section-banner {
+  position: relative;
+}
+
+.section-highlight-container {
+  border-radius: 32px;
+  background: #343268;
+  padding: 45px 30px;
+  max-width: 395px;
+  position: absolute;
+  bottom: -50px;
+  left: -85px;
+}
+.section-highlight-text {
+  color: #fff;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.section-highlight-desc {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 24px;
+}
