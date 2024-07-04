@@ -29,14 +29,6 @@
   filter: brightness(95%);
 }
 
-/* header */
-/* body {
-  background-image: url("./resources/media/Group\ 21.png"),
-    url("./resources/media/Group\ 20.png");
-  background-repeat: no-repeat;
-  background-position: left -21% top, right -21% top;
-} */
-
 nav {
   padding-top: 26px;
   display: flex;
@@ -366,4 +358,35 @@ details[open] div {
   font-size: 14px;
   line-height: 24px;
   text-transform: capitalize;
+}
+
+/* banner 2 */
+.banner2 {
+  border-radius: 32px;
+  background: radial-gradient(
+      648.07% 142.88% at 98.23% 78.35%,
+      #020043 0%,
+      rgba(2, 0, 67, 0.3) 100%
+    ),
+    url("./resources/media/Rectangle\ 32.png");
+  padding: 60px;
+}
+
+.banner2-heading {
+  color: #fffff5;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.banner2-btn-group {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.btn-type-3 {
+  background-color: transparent;
+  color: whitesmoke;
 }
