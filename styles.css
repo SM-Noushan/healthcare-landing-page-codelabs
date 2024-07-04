@@ -316,3 +316,54 @@ menu li a {
   color: #4d4c7b;
   font-weight: 400;
 }
+
+/* faq */
+.faq {
+  margin: 160px auto;
+}
+
+details {
+  margin: 12px auto;
+}
+
+summary {
+  border-radius: 8px;
+  background: #fffff5;
+  padding: 20px 45px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  transition: all 500ms ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after,
+details[open] summary:after {
+  content: "^";
+  font-size: 30px;
+  transition: all 500ms ease-in;
+}
+
+details[open] summary {
+  margin-bottom: 20px;
+}
+
+details[open] summary:after {
+  transform: rotate(180deg);
+}
+
+details[open] div {
+  padding: 0 45px 20px;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(52, 50, 104, 0.6);
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
