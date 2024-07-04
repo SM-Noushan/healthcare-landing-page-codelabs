@@ -152,7 +152,7 @@ menu li a {
 /* who we are */
 .section-label {
   border-radius: 25px;
-  border: 1px solid var(--text-80, #343268);
+  border: 1px solid #343268;
   background: #fffff5;
   padding: 10px 24px;
   width: fit-content;
@@ -162,13 +162,13 @@ menu li a {
 }
 
 .who-we-are {
-  margin: 50px auto;
+  margin: 80px auto;
 }
 
 .section-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-wrap: wrap;
   gap: 28px;
 }
 
@@ -215,4 +215,61 @@ menu li a {
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
   line-height: 24px;
+}
+
+/* service */
+.rounded-38 {
+  border-radius: 38px;
+}
+.service {
+  margin: 180px auto;
+  padding: 40px;
+  border-radius: 32px;
+  background: #fffff5;
+}
+
+.section-label-2 {
+  border-radius: 32px;
+  border: 1px solid #4d4c7b;
+  background: #fbfbfb;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-highlight-container-2 {
+  min-height: 144px;
+  padding: 18px;
+  border-radius: 20px;
+  opacity: 0.6;
+  background: #020043;
+  max-width: 321px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-highlight-text-2 {
+  color: #fffff5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+.section-highlight-desc-2 {
+  color: #fffff5;
+  font-size: 12px;
+  line-height: 18px;
+  max-width: 219px;
+}
+
+.section-highlight-desc-container {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-btn {
+  padding: 0;
+  border-radius: 50%;
 }
