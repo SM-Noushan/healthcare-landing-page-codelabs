@@ -1,0 +1,63 @@
+@media screen and (min-width: 960px) and (max-width: 1140px) {
+  .section-container img {
+    width: 450px;
+  }
+  .section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+    row-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  menu {
+    display: none;
+  }
+
+  .container {
+    max-width: 600px;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    margin-top: 16px;
+    width: 400px;
+  }
+
+  .section-container img {
+    width: 400px;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 80px 60px 50px;
+  }
+
+  .footer-content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-content-container div {
+    margin-bottom: 30px;
+  }
+}

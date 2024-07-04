@@ -164,7 +164,6 @@ menu li a {
 .section-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  flex-wrap: wrap;
   gap: 28px;
 }
 
