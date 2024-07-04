@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 /* general */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -389,4 +393,39 @@ details[open] div {
 .btn-type-3 {
   background-color: transparent;
   color: whitesmoke;
+}
+
+/* footer */
+footer {
+  margin-top: 180px;
+  background-color: #020043;
+  padding: 120px 0;
+}
+
+.footer-content-container {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 40% 20% 20% 20%);
+}
+
+.footer-content,
+.footer-content * {
+  color: #fffff5;
+  line-height: 24px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 264%;
+  text-transform: capitalize;
+  opacity: 80%;
+  display: flex;
+}
+
+.footer-social-links span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 294%;
 }
