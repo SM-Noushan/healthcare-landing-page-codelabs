@@ -73,3 +73,78 @@ menu li a {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.item {
+  max-width: 216px;
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 0.5px solid rgba(2, 0, 67, 0.2);
+}
+.item-type-1 {
+  background: #fbfbfb;
+}
+.item-type-2 {
+  margin-top: 20px;
+  background: #fffff5;
+}
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  margin-top: 40px;
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+
+.stats-desc {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.stats-value {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 116.9%;
+}
+
+.avatar-relative {
+  border-radius: 50%;
+  position: relative;
+  margin-left: -15px;
+}
+
+.stats-heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 116.9%;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "item1 item6 item6 item6 item5"
+    "item1 item2 item3 item4 item5";
+}
+
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
